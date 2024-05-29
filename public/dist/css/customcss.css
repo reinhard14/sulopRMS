@@ -1,0 +1,8 @@
+
+.long-text {
+    overflow: auto;
+}
+
+.user-bg-color {
+    background-color: rgba(0, 0, 0, 0.05);
+}

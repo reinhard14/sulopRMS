@@ -59,8 +59,8 @@
                     @else
                         <div class="row">
                             <div class="col">
-                                <div class="row mb-3 d-flex border border-primary">
-                                    <div class="col d-flex align-items-center justify-content-start p-2 border border-danger">
+                                <div class="row mb-3 d-flex">
+                                    <div class="col d-flex align-items-center justify-content-start p-2">
                                         <form method="GET" action="#">
                                         {{-- <form method="GET" action="#"> --}}
                                             <input type="text" name="search">
@@ -68,7 +68,7 @@
                                         </form>
                                     </div>
 
-                                    <div class="col d-flex align-items-center justify-content-between p-2 border border-danger">
+                                    <div class="col d-flex align-items-center justify-content-between p-2">
                                         <div class="">
                                             Date Filter:
                                         </div>
@@ -82,7 +82,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-3 d-flex align-items-center justify-content-end p-2 border border-info">
+                                    <div class="col-3 d-flex align-items-center justify-content-end p-2">
                                         <div>
                                             Filter:
                                             <select>
@@ -101,7 +101,7 @@
 
                                 {{-- after filter --}}
                                 <div class="row">
-                                    <div class="col d-flex justify-content-end border border-warning">
+                                    <div class="col d-flex justify-content-end">
                                         <div class="mr-1">
                                             <p> <strong> Current view - </strong></p>
                                         </div>
